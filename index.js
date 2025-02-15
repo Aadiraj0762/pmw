@@ -16,7 +16,7 @@ dbConnect();
 app.use(cookieParser()); 
 app.use(express.json());
 
-const allowedOrigins = ["http://localhost:5173","http://localhost:3000","http://127.0.0.1:5500","http://localhost:4000/","http://localhost:56222","http://localhost:56966","https://parkmywheel.netlify.app","https://pmwadmin.vercel.app/"];
+const allowedOrigins = ["http://localhost:5173","http://localhost:3000","http://127.0.0.1:5500","http://localhost:4000/","http://localhost:56222","http://localhost:56966","https://parkmywheel.netlify.app","https://pmwadmin.vercel.app"];
 
 const corsOptions = {
   origin: function (origin, callback) {
